@@ -2,6 +2,7 @@ Fundamentals of Statistics
 ================
 Shahrukh Khan
 April 13th, 2020
+Problems adapted and answered from - "All of Statistics, a concise course in Statistical Inference - Larry Wasserman"
 
 1. Let's suppose a coin has probability P of falling heads up. If we flip the coin many times, we would expect the proportion of
 heads to be near p. Let's Take P = .3 and P=0.03 and n = 5,000 and simulate n coin flips. 
