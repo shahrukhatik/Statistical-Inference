@@ -7,7 +7,7 @@ Let's suppose a coin has probability P of falling heads up. If we flip the coin 
 heads to be near p. We will make this formal later. Take P = .3 and n = 1,000 and simulate n coin flips. 
 et's plot the proportion of heads as a function of n. 
 
-![](usinr_files/figure-markdown_github/unnamed-chunk-4-1.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-2.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-3.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-4.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-5.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-6.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-7.png)<!-- -->
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 We can do the same experiment for P = .03.
 k
