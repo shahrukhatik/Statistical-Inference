@@ -10,6 +10,13 @@ et's plot the proportion of heads as a function of n.
 Reference-style: 
 ![alt text](https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png "Logo Title Text 1")
 
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png" width="350" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png" width="350" alt="accessibility text">
+</p>
+
+
+
 ![alt text](https://raw.githubusercontent.com/shahrukhatik/Statistical-Inference/Images/Coinflip.png)
 We can do the same experiment for P = .03.
 ![Screenshot](/Statistical-Inference/tree/master/Images/Coinflip.png)
