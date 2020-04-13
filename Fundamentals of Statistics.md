@@ -36,9 +36,15 @@ Source Code:
 a binomial random variable. Intuition suggests that X will be close to np. To see if this is true, we
 can repeat this experiment many times and average the X values. Let's build a simulation and compare the average of the X's to np . Assuming p =.3 and n = 10, n = 100, and n = 1,000.
 
+Source Code:
 p = probability of heads 
 x = number of heads 
 n = number of times coin is flipped
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 
 ```{r}
 p<- 0.3
