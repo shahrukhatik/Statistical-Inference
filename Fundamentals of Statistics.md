@@ -11,7 +11,7 @@ Reference-style:
 ![alt text](https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png "Logo Title Text 1")
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png" width="350" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
   <img src="https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png" width="350" alt="accessibility text">
 </p>
 
