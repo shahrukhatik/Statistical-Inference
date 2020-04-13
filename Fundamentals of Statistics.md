@@ -1,9 +1,9 @@
-The Classic Coin Toss Example
+Fundamentals of Statistics
 ================
 Shahrukh Khan
 April 13th, 2020
 
-Let's suppose a coin has probability P of falling heads up. If we flip the coin many times, we would expect the proportion of
+1. Let's suppose a coin has probability P of falling heads up. If we flip the coin many times, we would expect the proportion of
 heads to be near p. Let's Take P = .3 and P=0.03 and n = 5,000 and simulate n coin flips. 
 Plotting the proportion of heads as a function of n, we have:
 
@@ -32,7 +32,7 @@ Source Code:
      sp <-ggplot(dataset) + geom_line(aes(x=V1, y=probability_head)) + theme_minimal() + labs(title="Probability of heads",     x="# Coinflip", y="Probability")  
      sp +  geom_hline(yintercept=0.03)
 
-Suppose we flip a coin n times and let P denote the probability of heads. Let X be the number of heads. We call X
+2. Suppose we flip a coin n times and let P denote the probability of heads. Let X be the number of heads. We call X
 a binomial random variable. Intuition suggests that X will be close to np. To see if this is true, we
 can repeat this experiment many times and average the X values. Let's build a simulation and compare the average of the X's to np . Assuming p =.3 and n = 10, n = 100, and n = 1,000.
 
