@@ -8,9 +8,7 @@ heads to be near p. We will make this formal later. Take P = .3 and n = 1,000 an
 et's plot the proportion of heads as a function of n. 
 
 Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png "Probability vs Heads"
+![alt text](https://github.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png "Logo Title Text 1")
 
 We can do the same experiment for P = .03.
 
