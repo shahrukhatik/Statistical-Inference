@@ -96,5 +96,22 @@ n3p
 
 ```
 
+3. Let X have a continuous, strictly increasing cdf F. Let Y = F (X). The density of Y is called the probability integral transform. Now let U ∼ Uniform(0, 1) and let X = F−1(U). We can show that X ∼ F. Let's write a program that takes Uniform (0,1) random variables and generates random variables from an Exponential (β) distribution.
+
+```{r}
+library(ggplot2)
+xbeta<- function(n,beta){
+  u<-runif(n,min=0,max=1)
+  x <- -beta*log(1-u)
+  return(x)
+}
+
+df <- as.data.frame(xbeta(1000,2))
+colnames(df)[1] <- "value"
+
+p<-ggplot(df, aes(x=value)) + 
+  geom_histogram(color="black", fill="white",binwidth=1) + theme_minimal()
+p
+```
 
 
