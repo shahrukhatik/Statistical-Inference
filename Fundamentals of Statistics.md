@@ -12,4 +12,4 @@ Reference-style:
 
 ![alt text](https://raw.githubusercontent.com/shahrukhatik/Statistical-Inference/tree/master/Images/Coinflip.png)
 We can do the same experiment for P = .03.
-
+![Screenshot](Statistical-Inference/tree/master/Images/Coinflip.png)
