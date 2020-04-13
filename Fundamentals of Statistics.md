@@ -10,3 +10,4 @@ et's plot the proportion of heads as a function of n.
 ![](usinr_files/figure-markdown_github/unnamed-chunk-4-1.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-2.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-3.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-4.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-5.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-6.png)<!-- -->![](usinr_files/figure-markdown_github/unnamed-chunk-4-7.png)<!-- -->
 
 We can do the same experiment for P = .03.
+k
