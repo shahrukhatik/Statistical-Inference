@@ -45,14 +45,12 @@ p<- 0.3
 n1<- 10
 n2<- 100
 n3<- 1000
-
 ```
 
 Case 1: When n is 10:
 
 ```{r}
 events <-sample(c(0,1),n1,prob=c(0.7,p),replace=TRUE)
-
 x<- sum(events)
 x
 ```
@@ -65,28 +63,21 @@ probability_head_n1
 Comparing X to NP:
 
 ```{r}
-
 n1p<- n1*probability_head_n1
 n1p
-
 ```
 
-
 We can see that the value of X (3) and NP (3) came out to be the same. 
-
 
 Case 2: When n is 100:
 
 ```{r}
 events<-sample(c(0,1),n2,prob=c(0.7,p),replace=TRUE)
-
 x<- sum(events)
 x
-
 probability_head_n2<-x/n2
 probability_head_n2
 ```
-
 
 Comparing X to NP:
 
@@ -95,9 +86,7 @@ n2p<- n2*probability_head_n2
 n2p
 ```
 
-
 When n is 100, we can see that x and np is the same. Both the values came out to be the same as well. They were 32.
-
 Case 3: When n is 1000
 
 ```{r}
@@ -115,4 +104,5 @@ Comparing X to NP:
 n3p<- n3*probability_head_n3
 n3p
 ```
+When n is 1000, we can see that they are same as well. X and np were both 271.
 
