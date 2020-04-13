@@ -37,78 +37,63 @@ a binomial random variable. Intuition suggests that X will be close to np. To se
 can repeat this experiment many times and average the X values. Let's build a simulation and compare the average of the X's to np . Assuming p =.3 and n = 10, n = 100, and n = 1,000.
 
 Source Code:
+
+```{r}
 p = probability of heads 
 x = number of heads 
 n = number of times coin is flipped
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  fig.path = "README_figs/README-"
-)
-
-```{r}
 p<- 0.3
 n1<- 10
 n2<- 100
 n3<- 1000
-```
 
-Case 1: When n is 10:
+*Case 1: When n is 10:
 
-```{r}
 events <-sample(c(0,1),n1,prob=c(0.7,p),replace=TRUE)
 x<- sum(events)
 x
-```
 
-```{r}
 probability_head_n1<-x/n1
 probability_head_n1
-```
 
-Comparing X to NP:
+*Comparing X to NP:
 
-```{r}
 n1p<- n1*probability_head_n1
 n1p
-```
 
-We can see that the value of X (3) and NP (3) came out to be the same. 
+*We can see that the value of X (3) and NP (3) came out to be the same. 
 
-Case 2: When n is 100:
+*Case 2: When n is 100:
 
-```{r}
 events<-sample(c(0,1),n2,prob=c(0.7,p),replace=TRUE)
 x<- sum(events)
 x
 probability_head_n2<-x/n2
 probability_head_n2
-```
 
-Comparing X to NP:
+*Comparing X to NP:
 
-```{r}
 n2p<- n2*probability_head_n2
 n2p
-```
 
-When n is 100, we can see that x and np is the same. Both the values came out to be the same as well. They were 32.
+*When n is 100, we can see that x and np is the same. Both the values came out to be the same as well. They were 32.
 Case 3: When n is 1000
 
-```{r}
 events<-sample(c(0,1),n3,prob=c(0.7,p),replace=TRUE)
 
 x<- sum(events)
 x
-
 probability_head_n3<-x/n3
 probability_head_n3
-```
-Comparing X to NP: 
 
-```{r}
+*Comparing X to NP: 
+
 n3p<- n3*probability_head_n3
 n3p
+
+*When n is 1000, we can see that they are same as well. X and np were both 271.
+
 ```
-When n is 1000, we can see that they are same as well. X and np were both 271.
+
+
 
