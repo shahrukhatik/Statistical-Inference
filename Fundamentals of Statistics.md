@@ -101,6 +101,8 @@ n3p
 <p align="center">
   <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/betabarplot.png?raw=true" width="350" title="hover text">
 
+Source Code:
+
 ```{r}
 library(ggplot2)
 xbeta<- function(n,beta){
