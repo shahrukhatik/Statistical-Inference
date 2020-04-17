@@ -99,7 +99,7 @@ n3p
 3. Let X have a continuous, strictly increasing cdf F. Let Y = F (X). The density of Y is called the probability integral transform. Now let U ∼ Uniform(0, 1) and let X = F−1(U). We can show that X ∼ F. Let's write a program that takes Uniform (0,1) random variables and generates random variables from an Exponential (β) distribution.
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/PMFBinomial.png?raw=true" width="350" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/betabarplot.png?raw=true" width="350" title="hover text">
 
 Source Code:
 
