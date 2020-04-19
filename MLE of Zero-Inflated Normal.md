@@ -34,3 +34,20 @@ The Maximum Pseudo-likelihood function and pseudo-likelihood estimates for the z
 
 <p align="center">
   <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip2.png?raw=true" width="350" title="hover text">
+  
+ ## Simulation and Results
+ 
+10,000 bootstrap replicates of theta were computed under both parametric and non-parametric procedures. Bootstrap replicates were all computer under different values of alpha. For example, alpha = 0.05 would mean that the population contains 5% observations that have non-zero values and 95% values are zero's. For the simulation a nite population of size N = 10000 was randomly generated and separated into four strata each of which have a size of 2500. A random sample of 135 was
+drawn with inclusion and weight probabilities of strata being the following, Strata 1: P1=25/2500,W1=2500/25,Strata 2: P2 = 30/2500 ,w2 = 2500/30,Strata 3: P3 = 35/2500 ,w3 = 2500/35, Strata 4: P4= 45/2500 ,w4 = 2500/45. The sizes of each samples being drawn are n1 =25,n2 =30,n3 =35,n4=45 respectively. Results are presented from three different normal populations where the means and standard deviations differ signifcantly for the non-zero component. Results in Table 1 and Figure 2 assumed the non-zero component follows N(mu = 100, sd = 10), results in Table 2 and Figure 3 assume that the non-zero component follows N(mu = 50, sd = 2), and results in Table 3 and Figure 4 assumed the non-zero component follows N(mu = 20, sd = 1).
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G2.png?raw=true" width="350" title="hover text">
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G3.png?raw=true" width="350" title="hover text">
+  
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/T4Table.png?raw=true" width="350" title="hover text">
+  
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G4.png?raw=true" width="350" title="hover text">
