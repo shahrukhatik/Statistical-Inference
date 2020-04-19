@@ -30,5 +30,7 @@ For example, as per the paper being produced - sa histogram of 1000 randomly gen
 The Maximum Pseudo-likelihood function and pseudo-likelihood estimates for the zero-inflated normal model are derived as follows:
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip1.png?raw=true" width="350" title="hover text">
 
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip2.png?raw=true" width="350" title="hover text">
