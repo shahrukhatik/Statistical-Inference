@@ -35,6 +35,15 @@ The Maximum Pseudo-likelihood function and pseudo-likelihood estimates for the z
 <p align="center">
   <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip2.png?raw=true" width="500" title="hover text">
   
+The psuedo-likelihood estimate of the mean of the zero-inflated normal model is then:
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/theta.png?raw=true" width="200" title="hover text">
+  
+The complex sampling design used a combination of stratified sampling with bootstrapping. Stratified sampling is a type of sampling method. With stratified sampling, we divide the population into separate groups, called strata. Afterwards a simple random sample is drawn from each group. Bootstrapping is the practice of estimating properties of an estimator by measuring those properties when sampling from an approximating distribution. Bootstrap methods can be either parametric or nonparametric. Parametric bootstrap methods involve sampling from a known probability distribution; in nonparametric boot-
+strap, the distribution is not specified. This paper uses the idea of parametric methods where the non-zero component in mixture model has a specified probability distribution. As an application in normal models, we assume that the non-zero component follows a normal distribution with mean mu and standard deviation sigma, and use maximum pseudo-likelihood
+estimates accordingly.
+  
 ## Simulation and Results
  
 10,000 bootstrap replicates of theta were computed under both parametric and non-parametric procedures. Bootstrap replicates were all computer under different values of alpha. For example, alpha = 0.05 would mean that the population contains 5% observations that have non-zero values and 95% values are zero's. For the simulation a nite population of size N = 10000 was randomly generated and separated into four strata each of which have a size of 2500. A random sample of 135 was
