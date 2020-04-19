@@ -14,7 +14,7 @@ where alpha is the proportion of non-zeros, mu is the mean and sigma is the nuis
 the non-zero components. I represents an indicator function of values 1 and 0 respectively. The parameter of interest is the mean of our mixture distribution i.e
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/theta.png?raw=true" width="250" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/theta.png?raw=true" width="200" title="hover text">
   
 Given that the mixture distribution in this paper was conducted where the non-zero proportion of the mixture followed a normal distribution with mean u and variance sigma squared,our probability density function is given by:
 
@@ -30,7 +30,7 @@ For example, as per the paper being produced - sa histogram of 1000 randomly gen
 The Maximum Pseudo-likelihood function and pseudo-likelihood estimates for the zero-inflated normal model are derived as follows:
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip1.png?raw=true" width="500" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip1.png?raw=true" width="400" title="hover text">
 
 <p align="center">
   <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/mlezip2.png?raw=true" width="500" title="hover text">
@@ -41,16 +41,16 @@ The Maximum Pseudo-likelihood function and pseudo-likelihood estimates for the z
 drawn with inclusion and weight probabilities of strata being the following, Strata 1: P1=25/2500,W1=2500/25,Strata 2: P2 = 30/2500 ,w2 = 2500/30,Strata 3: P3 = 35/2500 ,w3 = 2500/35, Strata 4: P4= 45/2500 ,w4 = 2500/45. The sizes of each samples being drawn are n1 =25,n2 =30,n3 =35,n4=45 respectively. Results are presented from three different normal populations where the means and standard deviations differ signifcantly for the non-zero component. Results in Table 1 and Figure 2 assumed the non-zero component follows N(mu = 100, sd = 10), results in Table 2 and Figure 3 assume that the non-zero component follows N(mu = 50, sd = 2), and results in Table 3 and Figure 4 assumed the non-zero component follows N(mu = 20, sd = 1).
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G2.png?raw=true" width="500" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G2.png?raw=true" width="600" title="hover text">
 
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G3.png?raw=true" width="500" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G3.png?raw=true" width="600" title="hover text">
   
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/T4Table.png?raw=true" width="500" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/T4Table.png?raw=true" width="600" title="hover text">
   
 <p align="center">
-  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G4.png?raw=true" width="500" title="hover text">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/G4.png?raw=true" width="600" title="hover text">
   
 ## Conclusion
 
