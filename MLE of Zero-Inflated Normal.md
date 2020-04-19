@@ -7,5 +7,28 @@ depending on the depth of accumulation over discrete intervals. Rainfall is loca
 
 For our zero-inflated population, two components exist; one consisting solely of a proportion of zero values and a second component of nonzero values that adheres to some probability distribution. The two-component mixture model for zero-inflated population is defined by:
 
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
 
+where alpha is the proportion of non-zeros, mu is the mean and sigma is the nuisance parameter of
+the non-zero components. I represents an indicator function of values 1 and 0 respectively. The parameter of interest is the mean of our mixture distribution i.e
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
+  
+Given that the mixture distribution in this paper was conducted where the non-zero proportion of the mixture followed a normal distribution with mean u and variance sigma squared,our probability density function is given by:
+
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
+
+For example, as per the paper being produced - sa histogram of 1000 randomly generated samples presented in Figure 1 gives a visual idea of a zero-inflated normal mixture model. The histogram contains 70% zero values and 30% non-zero values, where non-zero values follow a normal distribution with mean 6 and standard deviation 1.
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
+  
+The Maximum Pseudo-likelihood function and pseudo-likelihood estimates for the zero-inflated normal model are derived as follows:
+
+<p align="center">
+  <img src="https://github.com/shahrukhatik/Statistical-Inference/blob/master/Images/Coinflip.png?raw=true" width="350" title="hover text">
 
