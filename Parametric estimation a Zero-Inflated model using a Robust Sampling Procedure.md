@@ -391,4 +391,4 @@ likelihood approach to the effective use of auxiliary information in complex sur
 
 This project is a reproduction of a previous paper, which can be found here:
 https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=2557&context=jmasm
-This project is meant to reproduce key findings in the paper and reproduce the methods introduced by Paneru. The goal is to make the methodology code freely available to any user. None of this work is original work, and all credit goes to the respective authors for their methodology design. 
+This project is meant to reproduce key findings in the paper and reproduce the methods introduced by Paneru. The goal is to make the methodology code freely available to any user as it is not publicly available.
