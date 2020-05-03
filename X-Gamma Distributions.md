@@ -9,3 +9,4 @@ Lists of X-Gamma Variants:
 <li>Inverse X-Gamma(IXG)</li>
 <li>Log X-Gamma(LXG)</li>
 <li>Two-parameter X-gamma distribution(TPXG)</li>
+<li>Transmuted X-gamma distribution(TXG)</li>
