@@ -2,7 +2,7 @@
 
 Since the introduction of the original X-Gamma, there has been many variants of the XG distribution. This document will compare each of these distributions together, using simulations drawn from a similar distribution as well as applicable real data.
 
-Lists of X-Gamma Variants:
+Comparisons:
 <li>X-Gamma(XG)</li>
 <li>Extended X-Gamma(EXG)</li>
 <li>Quasi X-Gamma(QXG)</li>
@@ -11,3 +11,5 @@ Lists of X-Gamma Variants:
 <li>Two-parameter X-gamma distribution(TPXG)</li>
 <li>Transmuted X-gamma distribution(TXG)</li>
 <li>Weighted xgamma distribution(LBXG)</li>
+<li>Gamma distribution(LBXG)</li>
+<li>Exponential distribution(LBXG)</li>
