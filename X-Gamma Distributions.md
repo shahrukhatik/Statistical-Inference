@@ -11,5 +11,5 @@ Comparisons:
 <li>Two-parameter X-gamma distribution(TPXG)</li>
 <li>Transmuted X-gamma distribution(TXG)</li>
 <li>Weighted xgamma distribution(LBXG)</li>
-<li>Gamma distribution(LBXG)</li>
-<li>Exponential distribution(LBXG)</li>
+<li>Gamma distribution(GD)</li>
+<li>Exponential distribution(EXP)</li>
