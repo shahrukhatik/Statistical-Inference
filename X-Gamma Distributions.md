@@ -10,3 +10,4 @@ Lists of X-Gamma Variants:
 <li>Log X-Gamma(LXG)</li>
 <li>Two-parameter X-gamma distribution(TPXG)</li>
 <li>Transmuted X-gamma distribution(TXG)</li>
+<li>Weighted xgamma distribution(LBXG)</li>
